@@ -19,8 +19,8 @@ function getFirstIpAddress(cidrStr, callback) {
   //var firstIpAddress = null;
   let temp = null;
   var firstIpAddress = {
-  ipv4 : "",
-  ipv6: ""
+  ipv4 : null,
+  ipv6: null
 };
   let callbackError = null;
 
